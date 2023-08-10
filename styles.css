@@ -16,16 +16,18 @@ header {
 
 ul {
     list-style-type: none;
-    margin: 5;
+    margin: 5px;
     padding: 5px;
     overflow: hidden;
     background-color: rgb(197, 216, 22);
 }
 
-li a:hover {
+  ul li a:hover {
     background-color: orange;
     color: white;
-}
+} 
+
+
 
 input[type=text],
 select,

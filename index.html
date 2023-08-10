@@ -15,14 +15,14 @@
         <nav>
             <ul>
                 <li><a href="#About">About Me</a></li>
-                <li><a href="Favorite Websites">Favorite Websites</a></li>
+                <li><a href="#websites">Favorite Websites</a></li>
                 <li><a href="#destination">Favorite Travel Destinations</a></li>
-
+                <li><a href="#Contact">Contact Form</a></li>
             </ul>
         </nav>
     </header>
     <h1 class="rotate-center">Welcome to Shilpa's page</h1>
-    <section>
+    <section id="About">
         <h2>About Me</h2>
         <div>
             <p>Hi, myself Shilpa Sasidharan Nair.I am 31 yrs old. I am born in the southern part of India, in a state
@@ -35,7 +35,7 @@
                 family is in India.</p>
         </div>
     </section>
-    <section>
+    <section id="websites">
         <h2>Favorite Websites</h2>
         <div>
             <p>I enjoy watching animes and Korean tv shows. I have some favorite websites through which I watch these.
@@ -46,7 +46,7 @@
                 You can click <a href="https://www.keralatourism.org/" target="_blank">here</a> and experience it
                 yourself.
             </p>
-            <p>I have also gone through the most influential websites of all time. These include
+            <p>I have also gone through the most influential websites of all time.These include
                 Reddit,Pandora,Wikileaks,eBay,Youtube,etc.Among these the most used by me is of course the <a
                     href="https://www.youtube.com/" target="_blank">Youtube.</a></p>
         </div>
@@ -84,28 +84,30 @@
             </p>
         </div>
     </section>
-    <h3>Contact Me</h3>
-    <div class="container">
-        <form action="/action_page.php">
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    <section id="Contact">
+        <h3>Contact Me</h3>
+        <div class="container">
+            <form action="/action_page.php">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
-            <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
-            <label for="country">Country</label>
-            <select id="country" name="country">
-                <option value="australia">Australia</option>
-                <option value="canada">Canada</option>
-                <option value="usa">USA</option>
-            </select>
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                    <option value="australia">Australia</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                </select>
 
-            <label for="subject">Subject</label>
-            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
-            <input type="submit" value="Submit">
-        </form>
-    </div>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </section>
 </body>
 
 </html>
